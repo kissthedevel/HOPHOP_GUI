@@ -1,0 +1,1214 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "container-generali"
+        ],
+        "designer|userClassName": "DetailActivity",
+        "height": 950,
+        "itemId": "DetailActivity",
+        "layout": "vbox",
+        "margin": "20 0 0 0",
+        "maxWidth": null,
+        "minWidth": null,
+        "modal": null,
+        "padding": 10,
+        "scrollable": null,
+        "width": null
+    },
+    "name": "MyContainer7",
+    "designerId": "48dcaaac-e1a6-455b-a7e5-caf947332270",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "name": "MyToolbar6",
+            "designerId": "ac8dfcd3-0876-4da2-8ae4-a188324373bb",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 24,
+                        "itemId": "IconaTipoAttivita",
+                        "margin": "0 10 0 15",
+                        "src": "resources/img/cup.svg",
+                        "width": 24
+                    },
+                    "name": "MyImg1",
+                    "designerId": "739e0e31-b61b-4101-9268-25403dae1595"
+                },
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<b>Tipo attività &nbsp; 00-00-0000",
+                        "itemId": "LabelTipoDataAttivita"
+                    },
+                    "name": "MyLabel3",
+                    "designerId": "581b98fe-f707-42fc-af3a-dacef813ac06"
+                },
+                {
+                    "type": "Ext.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null
+                    },
+                    "name": "MySpacer2",
+                    "designerId": "1e5573f0-af96-4a76-87d6-f7192adee9e1"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "square"
+                        ],
+                        "icon": "resources/img/updown.svg",
+                        "iconCls": null,
+                        "itemId": "BtnEditExpandActivity",
+                        "margin": 0,
+                        "text": ""
+                    },
+                    "name": "MyButton7",
+                    "designerId": "f05eacd0-3a88-4f5c-a8d9-5f28dfb09048"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "hidden": null,
+                "itemId": "DetailActivityGara"
+            },
+            "name": "MyContainer16",
+            "designerId": "845c037d-03d2-4675-bcf5-0caeeb3e7dd6",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer12",
+                    "designerId": "42769721-aa30-47c4-9bff-d70d3d4b7c08",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Nome gara: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "437fe57c-cf00-4390-9225-90e02f837056"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "--------------------",
+                                "itemId": "NomeGara",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "7c4c8d3e-313c-4777-9f80-ce7b50c2df66"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer13",
+                    "designerId": "6ab0e27f-58a8-40be-929c-5c27c01db8d0",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Tempo gara: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "ac2ec4e2-e950-486a-a478-d682e42eaea2"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "00 : 00 : 00",
+                                "itemId": "TempoGara",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "35b4bf64-17c7-4176-b695-fc98f5cf6aa7"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer14",
+                    "designerId": "6971dd0a-5da1-4f5a-96fb-371b8a0fb0fe",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Posizione: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "872d1ac9-b9dc-4152-8a0e-c6b4d278a4a7"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "00000 ass. <br> 00000 cat. <br> Tot. arrivati: 00000",
+                                "itemId": "PosizioniGara",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "e769144a-9bdb-400b-964d-f7341f165d8a"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-Dettaglio-Dettaglio"
+                        ],
+                        "docked": "top"
+                    },
+                    "name": "MyToolbar9",
+                    "designerId": "0829a5bf-80b8-4b23-8495-5e91cd95685d",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 16,
+                                "margin": "0 5 0 10",
+                                "src": "resources/img/cup.svg",
+                                "width": 16
+                            },
+                            "name": "MyImg",
+                            "designerId": "7c045845-153a-4616-9d1f-d53c09fe2b8e"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Risultati gara</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel4",
+                            "designerId": "839148d0-dfa8-4589-a04f-3f2a90c471be"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "hidden": null,
+                "itemId": "DetailActivityDatiPercorso",
+                "margin": "10 0 0 0"
+            },
+            "name": "MyContainer17",
+            "designerId": "b872af52-757d-4fea-ab41-ebb97061b16c",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer13",
+                    "designerId": "d7a7734b-a156-4e5e-b47f-6af9619fc593",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Tempo attività: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "1f329af3-01ee-4e03-b3b1-7b140013189d"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "00 : 00 : 00",
+                                "itemId": "TempoAttivita",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "13abe6c8-9a39-449e-a0ee-f445c845c628"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer14",
+                    "designerId": "baa75fc2-c878-4803-bd21-10ef82177ac3",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Distanza: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "7c20b360-2ea3-40ae-bdb4-05fa2b6305b9"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "000,0 Km",
+                                "itemId": "DistanzaAttivita",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "aa3cbbe3-18da-4ec8-affe-ea9cea5d9d86"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer18",
+                    "designerId": "5411e5df-25ed-4b7e-9bf0-91f1f5092c31",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Velocità ( km/h ): "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "a9b22e9f-5b90-4a59-9ecd-f87346c90f23"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "00,0 med. <br> 00,0 max.",
+                                "itemId": "VelocitaAttivita",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "789f06b6-e221-465b-ba3b-2683201f9d58"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-Dettaglio-Dettaglio"
+                        ],
+                        "docked": "top"
+                    },
+                    "name": "MyToolbar9",
+                    "designerId": "e7996e1d-525b-44e4-a968-ae38ed621ff5",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 16,
+                                "margin": "0 5 0 10",
+                                "src": "resources/img/route.svg",
+                                "width": 16
+                            },
+                            "name": "MyImg",
+                            "designerId": "9ffd3192-d31a-4b3e-b18e-8f96d7321a40"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Dati percorso</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel4",
+                            "designerId": "71c21af0-838b-4f9d-9f37-e84f48b28620"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "hidden": null,
+                "itemId": "DetailActivityDatiAltimetrici",
+                "margin": "10 0 0 0"
+            },
+            "name": "MyContainer19",
+            "designerId": "c743516a-1c1d-49e4-942c-485c6d36d23e",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer13",
+                    "designerId": "b3b3c610-2c98-4ef6-a82a-d0a35179fd42",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Dislivello ( mt ) : "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "a39b4cd0-26ea-4789-ae92-c35d276d25e7"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>00000 + </b><br>00000 -",
+                                "itemId": "DislivelliAttivita",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "50e4543c-1855-4474-90ed-ebe55888521c"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer20",
+                    "designerId": "637096d1-1b05-41ac-b8c2-0cc2b07e3496",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Altitudine ( mt ) : "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "f0731359-d78f-4c7c-8ffd-32355ca1582a"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "00000 base<br><b>00000 max. </b>",
+                                "itemId": "AltitudiniAttivita",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "a78eb229-5797-4f07-8f43-c96d7ac2e211"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer21",
+                    "designerId": "f12fcfbe-29b5-4aef-8c1a-1314f702fb14",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Pendenza ( % ) : "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "847aed57-603f-4af3-ac9f-8e97a1740d10"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>00 med. </b><br>00 max.",
+                                "itemId": "PendenzeAttivita",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "05071424-b951-4bf9-89a0-096e0fd5b4ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer22",
+                    "designerId": "8f51b8fe-dcd9-4a3d-b2b9-b2033ded3d28",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Distanza salita ( km ) : "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "b248a247-954e-41c1-8dc3-ed5e7ff27505"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>00,0",
+                                "itemId": "DistanzaSalita",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "2d05aeae-50ee-4fea-81e0-36d9489c0ac0"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-Dettaglio-Dettaglio"
+                        ],
+                        "docked": "top"
+                    },
+                    "name": "MyToolbar9",
+                    "designerId": "f2f48f2a-5231-47df-9b29-0647e31dc516",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 16,
+                                "margin": "0 5 0 10",
+                                "src": "resources/img/ascend.svg",
+                                "width": 16
+                            },
+                            "name": "MyImg",
+                            "designerId": "d733434c-1971-40b4-a4c0-6f8d683d2b19"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Dati altimetrici</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel4",
+                            "designerId": "8e1f3160-87d7-4b46-9738-cabf478acb2f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "DetailActivityDatiCardio",
+                "margin": "10 0 0 0"
+            },
+            "name": "MyContainer23",
+            "designerId": "cbd6fd78-1bf6-4ff2-8bfb-1d00e24417da",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer13",
+                    "designerId": "30f2eb1a-c3df-4514-8eaf-56a5cd7c4beb",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Frequenza ( bpm ) : "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "91d8ed8b-e6ea-44b9-9a48-08d203002664"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>000 med. </b><br>000 max.",
+                                "itemId": "FrequenzaCardio",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "b553fa40-1f6e-4854-81cf-24fee277a6a1"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer24",
+                    "designerId": "7e16f098-7b92-44a5-a30b-28ee506cf2d0",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Energia Kcal : "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "968ed134-881b-4117-b6b8-118a3bb4ff31"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>0000",
+                                "itemId": "KcalBruciate",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "58950206-c024-4cbb-83de-19735a16a94e"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer25",
+                    "designerId": "7f651066-350f-495f-8ce8-8a856141a29a",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Tempo zona all.: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "58225ee0-8768-403c-a0d8-3c71a2d15105"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>00 : 00 : 00",
+                                "itemId": "TempoZonaAll",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "2024bd37-21bb-478e-8b34-1cecfd2c70fc"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-Dettaglio-Dettaglio"
+                        ],
+                        "docked": "top"
+                    },
+                    "name": "MyToolbar9",
+                    "designerId": "48fb4ec7-575d-48a1-9cd9-198e0c5afdc9",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 16,
+                                "margin": "0 5 0 10",
+                                "src": "resources/img/heart.svg",
+                                "width": 16
+                            },
+                            "name": "MyImg",
+                            "designerId": "1b900ada-8ff1-4547-bb93-e558bf39f979"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Dati cardio</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel4",
+                            "designerId": "ad64dd01-4840-4b60-b839-d553cbcdcfa1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "DetailActivityDatiClima",
+                "margin": "10 0 0 0"
+            },
+            "name": "MyContainer26",
+            "designerId": "08440977-803d-4df4-9924-de0cfcb84812",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer25",
+                    "designerId": "5f1735ff-186e-40f2-a2a8-65066d29870c",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Tempo: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "89e05141-4e71-4058-9bfa-e682288834a7"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "-------------",
+                                "itemId": "TipoTempoClima",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "549dbc98-65c8-4891-82e8-ab3b277f3b99"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer27",
+                    "designerId": "966d760e-66c2-43be-97fb-15f865c851b7",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Vento: "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "e596e080-9b42-45bc-9984-5bba4181fddf"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "-------------",
+                                "itemId": "TipoVentoClima",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "9dce967d-4bd5-4c3b-b493-092288f1a1c9"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer28",
+                    "designerId": "71389043-6f26-4632-acda-3be095f0eb90",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Temperatura °C : "
+                            },
+                            "name": "MyLabel5",
+                            "designerId": "f242da4f-c26e-4afd-8ece-79dec99b8fff"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "00,0",
+                                "itemId": "TemperaturaClima",
+                                "margin": "0 0 0 10"
+                            },
+                            "name": "MyLabel6",
+                            "designerId": "f97ccc1b-5ac4-408b-a51f-205519fae7c1"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-Dettaglio-Dettaglio"
+                        ],
+                        "docked": "top"
+                    },
+                    "name": "MyToolbar9",
+                    "designerId": "7c266c39-9551-42d3-b553-a594270fbacc",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 16,
+                                "margin": "0 5 0 10",
+                                "src": "resources/img/weather.svg",
+                                "width": 16
+                            },
+                            "name": "MyImg",
+                            "designerId": "294f7962-efe2-4bfa-beec-ec40ad4faf16"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Clima</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel4",
+                            "designerId": "ab84d855-fc0b-4667-82af-1b3126ebe3cc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "DetailActivityDatiNote",
+                "margin": "10 0 0 0",
+                "padding": 5
+            },
+            "name": "MyContainer29",
+            "designerId": "39f598ea-e4e1-4eaa-a15e-0243f0fac958",
+            "cn": [
+                {
+                    "type": "Ext.field.TextArea",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "NoteAttivita",
+                        "label": null,
+                        "name": null,
+                        "readOnly": true
+                    },
+                    "name": "MyTextArea",
+                    "designerId": "54004165-5722-4267-82fe-4839e6205084"
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-Dettaglio-Dettaglio"
+                        ],
+                        "docked": "top"
+                    },
+                    "name": "MyToolbar8",
+                    "designerId": "36f8a786-a8a3-4040-881d-4be54824086f",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 16,
+                                "margin": "0 10 0 15",
+                                "src": "resources/img/notes.svg",
+                                "width": 16
+                            },
+                            "name": "MyImg",
+                            "designerId": "5d59e49d-8af0-4f6d-a3f7-a0c8a2e9aab4"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Note attività</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel4",
+                            "designerId": "6143905b-9a05-4ea9-8b90-3a00a59151a9"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css_qz78oh7u",
+        "url": "resources/css/generali.css"
+    },
+    "name": "css1",
+    "designerId": "b466088b-52bb-424a-a671-87ff35bb9a8f"
+}

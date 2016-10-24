@@ -1,0 +1,1340 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "background-generali"
+        ],
+        "designer|userClassName": "PopUpNewActivity",
+        "fullscreen": null,
+        "itemId": "PopUpNewActivity",
+        "layout": "fit",
+        "modal": true,
+        "zIndex": null
+    },
+    "name": "MyContainer6",
+    "designerId": "1d5ec090-94c4-4011-8193-cd0257c50b02",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "centered": true,
+                "height": "95%",
+                "id": null,
+                "itemId": "FormNewActivity",
+                "maxHeight": 500,
+                "maxWidth": 300,
+                "padding": 10,
+                "width": "95%",
+                "zIndex": null
+            },
+            "name": "Form1",
+            "designerId": "5d3ba25b-b543-4c65-b0c8-5badb3b7f973",
+            "cn": [
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top",
+                        "title": null
+                    },
+                    "name": "MyToolbar",
+                    "designerId": "8e3b0e1c-0691-4e9c-a81b-582c06d1702b",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": null,
+                                "id": null,
+                                "itemId": "BtnCancelNewAct",
+                                "text": "Indietro",
+                                "ui": "decline"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "43480707-914c-43b8-afef-f7a16fff36a5"
+                        },
+                        {
+                            "type": "Ext.Spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "name": "MySpacer",
+                            "designerId": "af3d4ef6-1745-4d89-ba66-e466374ddedd"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "action",
+                                "iconCls": "",
+                                "id": null,
+                                "itemId": "BtnSalvaNewAct",
+                                "text": "Salva",
+                                "ui": "action"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "5c88ba05-30c5-4f02-b760-7c50c24c27df"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.field.Number",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": true,
+                        "id": "id",
+                        "label": null
+                    },
+                    "name": "MyNumberField22",
+                    "designerId": "0a37744b-ff71-4b15-a1bd-935681387178"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "ContainerDataOra",
+                        "layout": "hbox"
+                    },
+                    "name": "MyContainer33",
+                    "designerId": "e0c3a6e4-c740-48e2-a9c0-5bf3d02e675c",
+                    "cn": [
+                        {
+                            "type": "Ext.field.DatePicker",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dateFormat": "d-m-Y",
+                                "label": "Data",
+                                "layout|flex": 1,
+                                "name": "data",
+                                "placeHolder": null,
+                                "usePicker": [
+                                    "true"
+                                ],
+                                "value": 1455836400000,
+                                "zIndex": null
+                            },
+                            "name": "MyDatePicker",
+                            "designerId": "46bf499c-1e99-4077-a7bd-4bee72c59e2e",
+                            "cn": [
+                                {
+                                    "type": "Ext.picker.Date",
+                                    "reference": {
+                                        "name": "picker",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dayText": null,
+                                        "zIndex": 21000
+                                    },
+                                    "name": "MyDatePicker1",
+                                    "designerId": "2dce4058-67b4-4dbf-88d2-526f409693da",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.Button",
+                                            "reference": {
+                                                "name": "doneButton",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "text": "Done"
+                                            },
+                                            "name": "MyButton3",
+                                            "designerId": "30e7f656-9086-49b2-b17e-9204e6c48060"
+                                        },
+                                        {
+                                            "type": "Ext.Button",
+                                            "reference": {
+                                                "name": "cancelButton",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "text": "Cancel"
+                                            },
+                                            "name": "MyButton4",
+                                            "designerId": "f61f89ac-a0ac-47cb-ba46-c78af2d6f004"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "clearIcon": false,
+                                "itemId": "OraAttivita",
+                                "label": null,
+                                "value": [
+                                    "00:00"
+                                ],
+                                "width": 70
+                            },
+                            "name": "MyTextField",
+                            "designerId": "2681ed4e-6c12-4172-836e-9bffafa8dc2c",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onMytextfieldFocus",
+                                        "implHandler": [
+                                            "textfield.blur();",
+                                            "var hours = [",
+                                            "    {text: '00',value: '00'},{text: '01',value: '01'},{text: '02',value: '02'},",
+                                            "    {text: '03',value: '03'},{text: '04',value: '04'},{text: '05',value: '05'},",
+                                            "    {text: '06',value: '06'},{text: '07',value: '07'},{text: '08',value: '08'},",
+                                            "    {text: '09',value: '09'},{text: '10',value: '10'},{text: '11',value: '11'},",
+                                            "    {text: '12',value: '12'},{text: '13',value: '13'},{text: '14',value: '14'},",
+                                            "    {text: '15',value: '15'},{text: '16',value: '16'},{text: '17',value: '17'},",
+                                            "    {text: '18',value: '18'},{text: '19',value: '19'},{text: '20',value: '20'},",
+                                            "    {text: '21',value: '21'},{text: '22',value: '22'},{text: '23',value: '23'}",
+                                            "];",
+                                            "",
+                                            "var minutes = [",
+                                            "    {text: '00',value: '00'},{text: '05',value: '05'},{text: '10',value: '10'},",
+                                            "    {text: '15',value: '15'},{text: '20',value: '20'},{text: '25',value: '25'},",
+                                            "    {text: '30',value: '30'},{text: '35',value: '35'},{text: '40',value: '40'},",
+                                            "    {text: '45',value: '45'},{text: '50',value: '50'},{text: '55',value: '55'}",
+                                            "];",
+                                            "var picker = Ext.create('Ext.Picker', {",
+                                            "    useTitles: true,",
+                                            "    maxWidth: 240,",
+                                            "    listeners: {",
+                                            "        change: function(picker, value, eOpts) {",
+                                            "            textfield.setValue(value.hour+':'+value.minute);",
+                                            "        }",
+                                            "    },",
+                                            "    slots: [{",
+                                            "        align: 'left',",
+                                            "        name: 'hour',",
+                                            "        title: 'Ore',",
+                                            "        data: hours",
+                                            "    }, {",
+                                            "        align: 'right',",
+                                            "        name: 'minute',",
+                                            "        title: 'Minuti',",
+                                            "        data: minutes",
+                                            "    }] // slots",
+                                            "}); // create()",
+                                            "",
+                                            "Ext.Viewport.add(picker);"
+                                        ],
+                                        "name": "focus"
+                                    },
+                                    "name": "onMytextfieldFocus",
+                                    "designerId": "9e91c86e-5859-44b9-a864-6acd56e0bf02"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.field.Select",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Sport",
+                        "name": "sport",
+                        "options": [
+                            "    [",
+                            "        {text: 'MTB',  value: 1},",
+                            "        {text: 'BDC', value: 2},",
+                            "        {text: 'Ciclocross',  value: 3},",
+                            "        {text: 'Triathlon',  value: 4},",
+                            "        {text: 'Corsa',  value: 5},",
+                            "        {text: 'Corsa Montagna',  value: 6},",
+                            "        {text: 'Trekking',  value: 7}",
+                            "    ]"
+                        ]
+                    },
+                    "name": "MySelectField",
+                    "designerId": "30b87eaf-bc78-4fa4-ba37-d55ffb1cbf17"
+                },
+                {
+                    "type": "Ext.field.Checkbox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Gara",
+                        "margin": "10 0 0 0",
+                        "name": "isgara"
+                    },
+                    "name": "MyCheckbox",
+                    "designerId": "2003e27d-77dc-4e2d-a4fd-dd7dc4cb52a1"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "centered": null,
+                        "cls": [
+                            "container-generali"
+                        ],
+                        "html": null,
+                        "padding": 5
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "ce0fa4ef-dae5-4e59-b6ed-16bae8ec20ee",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Nome",
+                                "name": "nomegara"
+                            },
+                            "name": "MyTextField9",
+                            "designerId": "62064128-5bce-4fed-9ecc-b736da3bd2da"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Tempo gara</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel",
+                            "designerId": "9103cab9-7b97-4d32-bdb0-91bdc701affa"
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "margin": null
+                            },
+                            "name": "MyContainer",
+                            "designerId": "a97104c7-ba1a-4b2e-953a-6db1cfac002c",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "label": "ore",
+                                        "labelAlign": "top",
+                                        "margin": 3,
+                                        "name": "oregara",
+                                        "width": 60
+                                    },
+                                    "name": "MyNumberField1",
+                                    "designerId": "44bad19b-6d6d-4267-bb1d-d0d4f72f88e8"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "min",
+                                        "labelAlign": "top",
+                                        "margin": 3,
+                                        "name": "mingara",
+                                        "width": 60
+                                    },
+                                    "name": "MyNumberField2",
+                                    "designerId": "32d5c60c-2400-49b5-8734-725895dc97ca"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "sec",
+                                        "labelAlign": "top",
+                                        "margin": 3,
+                                        "name": "secgara",
+                                        "width": 60
+                                    },
+                                    "name": "MyNumberField3",
+                                    "designerId": "bf7e7020-a8c5-4618-9176-276fcfd3359b"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Posizione arrivo</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel1",
+                            "designerId": "0fd03364-4d3a-4e31-a52e-188b1a803af1"
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "center",
+                                "container|pack": "center",
+                                "layout": "vbox"
+                            },
+                            "name": "MyContainer1",
+                            "designerId": "2cfc5816-562f-42a8-a058-046be8dffbc2",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Assoluto",
+                                        "labelWidth": 120,
+                                        "name": "posassoluto",
+                                        "value": null,
+                                        "width": 220
+                                    },
+                                    "name": "MyNumberField4",
+                                    "designerId": "e4da9e8c-8fbe-43ee-b802-2cfc0a444853"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Categoria",
+                                        "labelWidth": 120,
+                                        "name": "poscategoria",
+                                        "value": null,
+                                        "width": 220
+                                    },
+                                    "name": "MyNumberField5",
+                                    "designerId": "16c145ec-894d-4588-a50d-072407e71ee1"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Tot arrivati",
+                                        "labelWidth": 120,
+                                        "name": "totclassificati",
+                                        "value": null,
+                                        "width": 220
+                                    },
+                                    "name": "MyNumberField6",
+                                    "designerId": "cc045ed6-7277-4c6b-81d3-2d9fcf327542"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Toolbar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top"
+                            },
+                            "name": "MyToolbar1",
+                            "designerId": "0f834353-8e3c-4172-a660-3df5261bcae5",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 24,
+                                        "margin": "0 10 0 15",
+                                        "src": "resources/img/cup.svg",
+                                        "width": 24
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "e0a6885c-de03-461d-9c0b-1fdd71563700"
+                                },
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<center><b>Risultati gara</center>",
+                                        "margin": 5
+                                    },
+                                    "name": "MyLabel4",
+                                    "designerId": "bbaeb8e0-01ac-4938-a5c1-fc22bb341ad6"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "container-generali"
+                        ],
+                        "margin": "10 0 0 0",
+                        "padding": 5
+                    },
+                    "name": "MyContainer5",
+                    "designerId": "2fe84e00-87f1-4ec7-b8ad-ad7609017042",
+                    "cn": [
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "margin": null
+                            },
+                            "name": "MyContainer2",
+                            "designerId": "fb0ccc32-0249-4c57-9031-7378ddcbb45a",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "label": "Ore",
+                                        "labelAlign": "top",
+                                        "labelWidth": null,
+                                        "layout|flex": 1,
+                                        "margin": null,
+                                        "name": "oreattivita",
+                                        "value": null,
+                                        "width": null
+                                    },
+                                    "name": "MyNumberField1",
+                                    "designerId": "b892e757-206e-4a4b-8060-6a10e0df8d11"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "label": "min.",
+                                        "labelAlign": "top",
+                                        "labelWidth": null,
+                                        "layout|flex": 1,
+                                        "margin": null,
+                                        "name": "minutiattivita",
+                                        "value": null,
+                                        "width": 80
+                                    },
+                                    "name": "MyNumberField7",
+                                    "designerId": "257af55a-05e0-41fa-aa04-b9de81c6c1e0"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "label": "sec.",
+                                        "labelAlign": "top",
+                                        "labelWidth": null,
+                                        "layout|flex": 1,
+                                        "margin": null,
+                                        "name": "secondiattivita",
+                                        "value": null,
+                                        "width": 80
+                                    },
+                                    "name": "MyNumberField8",
+                                    "designerId": "f18517df-1b26-449f-b2a5-3275634e235f"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Distanza ( km )",
+                                "labelWidth": 150,
+                                "name": "distanzaattivita",
+                                "value": null
+                            },
+                            "name": "MyNumberField9",
+                            "designerId": "04a720f7-6cb2-40f5-909b-5120226b6f75"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Vel. med. (km)",
+                                "labelWidth": 150,
+                                "name": "velmedia"
+                            },
+                            "name": "MyNumberField10",
+                            "designerId": "2b618d47-3b14-47c6-be3f-a5b42374cd40"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Vel. max. (km)",
+                                "labelWidth": 150,
+                                "name": "velmax"
+                            },
+                            "name": "MyNumberField11",
+                            "designerId": "dd7b59c2-be14-41ce-b5d0-8866f3ccd805"
+                        },
+                        {
+                            "type": "Ext.Toolbar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top"
+                            },
+                            "name": "MyToolbar3",
+                            "designerId": "f3642219-dffe-4f80-b4fd-efeac176e7f4",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 24,
+                                        "margin": "0 10 0 15",
+                                        "src": "resources/img/route.svg",
+                                        "width": 24
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "bc0a6865-ed2f-4f35-aba3-f0101ca10921"
+                                },
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<center><b>Dati percorso</center>",
+                                        "margin": 5
+                                    },
+                                    "name": "MyLabel4",
+                                    "designerId": "caedbc9f-40d3-4601-b6ab-1fcac7e25ada"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "container-generali"
+                        ],
+                        "margin": "10 0 0 0",
+                        "padding": 5
+                    },
+                    "name": "MyContainer6",
+                    "designerId": "d81f6c7f-32b7-4cfc-92e0-96efac4a0681",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Dislivello+",
+                                "labelWidth": 150,
+                                "name": "dislivellopos"
+                            },
+                            "name": "MyNumberField12",
+                            "designerId": "7d2f8280-871c-4f31-be67-e728d7a188d5"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Dislivello-",
+                                "labelWidth": 150,
+                                "name": "dislivellomen"
+                            },
+                            "name": "MyNumberField17",
+                            "designerId": "1ad785ab-e204-4cdd-81e6-b859557f19ab"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Altezza part.",
+                                "labelWidth": 150,
+                                "name": "altezzapart"
+                            },
+                            "name": "MyNumberField13",
+                            "designerId": "92738619-8a06-4ca3-910a-285569fe5aab"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Altezza max.",
+                                "labelWidth": 150,
+                                "name": "altezzamax"
+                            },
+                            "name": "MyNumberField14",
+                            "designerId": "659ef4c7-1949-4c2e-9439-f8cc822eb322"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Pend. med. (%)",
+                                "labelWidth": 150,
+                                "name": "pendenzamed"
+                            },
+                            "name": "MyNumberField15",
+                            "designerId": "8323e93c-58a7-4454-b902-a0c524e0daf9"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Pend. max. (%)",
+                                "labelWidth": 150,
+                                "name": "pendenzamax"
+                            },
+                            "name": "MyNumberField16",
+                            "designerId": "ddf53ccb-1f72-461e-8125-dc1038a5941e"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Dist salita (km)",
+                                "labelWidth": 150,
+                                "name": "distsalita"
+                            },
+                            "name": "MyNumberField18",
+                            "designerId": "05083739-93a4-4466-b6fe-34a1cb0059ea"
+                        },
+                        {
+                            "type": "Ext.Toolbar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top"
+                            },
+                            "name": "MyToolbar4",
+                            "designerId": "39f82236-423a-4e57-bd04-d10f541e095c",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 24,
+                                        "margin": "0 10 0 15",
+                                        "src": "resources/img/ascend.svg",
+                                        "width": 24
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "9868ddc2-5963-4bf1-8754-2b4ecb4f743d"
+                                },
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<center><b>Dati altimetrici</center>",
+                                        "margin": 5
+                                    },
+                                    "name": "MyLabel4",
+                                    "designerId": "bcff31a9-c762-45d5-a109-830db12f466b"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "container-generali"
+                        ],
+                        "margin": "10 0 0 0",
+                        "padding": 5
+                    },
+                    "name": "MyContainer9",
+                    "designerId": "1b000c40-791f-486d-a899-4e4156a03afe",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Freq. med. ( bpm )",
+                                "labelWidth": 180,
+                                "name": "bpmmedia",
+                                "value": null
+                            },
+                            "name": "MyNumberField",
+                            "designerId": "26062f38-b36e-4561-aab8-ab77f9793219"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Freq. max. ( bpm )",
+                                "labelWidth": 180,
+                                "name": "bpmmax"
+                            },
+                            "name": "MyNumberField20",
+                            "designerId": "ceff9ed1-5b34-4fee-b47c-961e1a7d2814"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Energia ( Kcal )",
+                                "labelWidth": 180,
+                                "name": "kcal",
+                                "value": null
+                            },
+                            "name": "MyNumberField21",
+                            "designerId": "dadf3c42-90f2-416b-b5fb-1a137864685d"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<center><b>Tempo zona allenamento</center>",
+                                "margin": 5
+                            },
+                            "name": "MyLabel2",
+                            "designerId": "ed18d65e-5208-40c5-b17f-f98f82e610b5"
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "margin": null
+                            },
+                            "name": "MyContainer3",
+                            "designerId": "8da9c486-3284-44e9-9cd7-b321b1721722",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "label": "Ore",
+                                        "labelAlign": "top",
+                                        "labelWidth": null,
+                                        "layout|flex": 1,
+                                        "margin": null,
+                                        "name": "orezonacardio",
+                                        "value": null,
+                                        "width": null
+                                    },
+                                    "name": "MyNumberField1",
+                                    "designerId": "ed009faf-e175-4eb0-a8b4-31f73e26c63a"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "label": "min.",
+                                        "labelAlign": "top",
+                                        "labelWidth": null,
+                                        "layout|flex": 1,
+                                        "margin": null,
+                                        "name": "minzonacardio",
+                                        "value": null,
+                                        "width": 80
+                                    },
+                                    "name": "MyNumberField7",
+                                    "designerId": "c154f58f-bdb3-4086-b366-dbe98f55187f"
+                                },
+                                {
+                                    "type": "Ext.field.Number",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "label": "sec.",
+                                        "labelAlign": "top",
+                                        "labelWidth": null,
+                                        "layout|flex": 1,
+                                        "margin": null,
+                                        "name": "seczonacardio",
+                                        "value": null,
+                                        "width": 80
+                                    },
+                                    "name": "MyNumberField8",
+                                    "designerId": "43ed5f3d-ef16-40b2-a251-8b73d777d2b0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Toolbar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top"
+                            },
+                            "name": "MyToolbar7",
+                            "designerId": "73be3b80-78bd-4e43-85d4-6a4e4f7e63be",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 24,
+                                        "margin": "0 10 0 15",
+                                        "src": "resources/img/heart.svg",
+                                        "width": 24
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "26719ebf-be04-405e-afe7-66ff116cb57f"
+                                },
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<center><b>Dati Cardio</center>",
+                                        "margin": 5
+                                    },
+                                    "name": "MyLabel4",
+                                    "designerId": "ee85a5da-cac4-496f-a9a7-a731991f3b5c"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "container-generali"
+                        ],
+                        "margin": "10 0 0 0",
+                        "padding": 5
+                    },
+                    "name": "MyContainer8",
+                    "designerId": "acd966e2-6e87-49b8-a994-fc5a1f73e381",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Select",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Tempo",
+                                "labelWidth": 100,
+                                "name": "climatempo",
+                                "options": [
+                                    "    [",
+                                    "        {text: 'Cielo sereno',  value: 1},",
+                                    "        {text: 'Poco nuvoloso', value: 2},",
+                                    "        {text: 'Variabile con rovesci',  value: 3},",
+                                    "        {text: 'Nuvoloso',  value: 4},",
+                                    "        {text: 'Pioggia',  value: 5},",
+                                    "        {text: 'Temporale',  value: 6},",
+                                    "        {text: 'Grandine',  value: 7},",
+                                    "        {text: 'Nevischio',  value: 8},",
+                                    "        {text: 'Neve',  value: 9},",
+                                    "        {text: 'Nebbia',  value:10}",
+                                    "    ]"
+                                ]
+                            },
+                            "name": "MySelectField3",
+                            "designerId": "c0ffc91a-0722-44f9-9380-82dc9b7d4053"
+                        },
+                        {
+                            "type": "Ext.field.Select",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Vento",
+                                "labelWidth": 100,
+                                "name": "climavento",
+                                "options": [
+                                    "    [",
+                                    "        {text: 'Assente',  value: 1},",
+                                    "        {text: 'Debole', value: 2},",
+                                    "        {text: 'Moderato',  value: 3},",
+                                    "        {text: 'Forte',  value: 4},",
+                                    "        {text: 'Molto forte',  value: 5}",
+                                    "    ]"
+                                ]
+                            },
+                            "name": "MySelectField1",
+                            "designerId": "a58cf846-9448-4230-b0b3-7d9d3c3973f6"
+                        },
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Temperatura °C",
+                                "labelWidth": 180,
+                                "name": "climatemperatura",
+                                "value": null
+                            },
+                            "name": "MyNumberField19",
+                            "designerId": "c7dbd500-fafa-4724-b940-a901e2e70d8c"
+                        },
+                        {
+                            "type": "Ext.Toolbar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top"
+                            },
+                            "name": "MyToolbar5",
+                            "designerId": "dd1d64bc-b322-423f-9f27-2e1f96568ca5",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 24,
+                                        "margin": "0 10 0 15",
+                                        "src": "resources/img/weather.svg",
+                                        "width": 24
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "0dc4c4b5-bfd2-4041-baab-147ad42132f6"
+                                },
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<center><b>Clima</center>",
+                                        "margin": 5
+                                    },
+                                    "name": "MyLabel4",
+                                    "designerId": "720cdfe7-a862-4913-8ac9-bd2b0e0b778e"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "container-generali"
+                        ],
+                        "margin": "10 0 0 0",
+                        "padding": 5
+                    },
+                    "name": "MyContainer10",
+                    "designerId": "cc9dc31f-a83b-4826-8187-5239e156f628",
+                    "cn": [
+                        {
+                            "type": "Ext.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": null,
+                                "name": "noteattivita"
+                            },
+                            "name": "MyTextArea",
+                            "designerId": "01d4e5e5-202a-4ae6-8e9e-a1d6293bbb5e"
+                        },
+                        {
+                            "type": "Ext.Toolbar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top"
+                            },
+                            "name": "MyToolbar8",
+                            "designerId": "20c47169-da65-40ab-9359-9f5950eb06aa",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 24,
+                                        "margin": "0 10 0 15",
+                                        "src": "resources/img/notes.svg",
+                                        "width": 24
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "15e9aa5c-1c7f-4f3a-b4ec-1722ba896c15"
+                                },
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<center><b>Note attività</center>",
+                                        "margin": 5
+                                    },
+                                    "name": "MyLabel4",
+                                    "designerId": "5fa22ec5-4edc-4768-a230-18f71aa48e2b"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

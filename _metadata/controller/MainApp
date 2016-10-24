@@ -1,0 +1,74 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainApp"
+    },
+    "name": "MyController",
+    "designerId": "9f3cd858-04d6-4544-8413-dcec0151712b",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "MainApp",
+                "selector": "#MainApp"
+            },
+            "name": "MainApp",
+            "designerId": "49b9212d-16b4-4964-899b-57775a466cba"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "tabpanel#MainApp",
+                "designer|targetType": "Ext.tab.Panel",
+                "fn": "onTabChangeMainApp",
+                "implHandler": [
+                    "if(oldValue.getItemId() == 'TimelineActivities')",
+                    "    this.getContainerActivities().removeAll();",
+                    "",
+                    "if(value.getItemId() == 'TimelineActivities'){",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "    this.getContainerActivities().add(Ext.create('HOPHOP.view.DetailActivity', {}));",
+                    "}"
+                ],
+                "name": "activeitemchange"
+            },
+            "name": "onTabChangeMainApp",
+            "designerId": "17e33a2b-e156-48ff-a3f4-92ad493b1fad"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "ContainerActivities",
+                "selector": "#ContainerActivities"
+            },
+            "name": "ContainerActivities",
+            "designerId": "f09e1d29-ced1-4475-a0c8-38fb4d7d334e"
+        }
+    ]
+}

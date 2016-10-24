@@ -1,0 +1,162 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "NewActivity"
+    },
+    "name": "MyController",
+    "designerId": "1aa1b638-3879-4b35-8207-442398949449",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "BtnNewActivity",
+                "selector": "#BtnNewActivity"
+            },
+            "name": "BtnNewActivity",
+            "designerId": "266f32e2-a1b7-4125-b349-fe67f81af136"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#BtnNewActivity",
+                "designer|targetType": "Ext.Button",
+                "fn": "onTapBtnNewActivity",
+                "implHandler": [
+                    "var popupAct = Ext.create('HOPHOP.view.PopUpNewActivity', {});",
+                    "popupAct.show();",
+                    "Ext.getCmp('MainApp').hide();"
+                ],
+                "name": "tap"
+            },
+            "name": "onTapBtnNewActivity",
+            "designerId": "cbfe7014-9735-4ea0-8ffd-1ace4f8567d5"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "BtnCancelNewAct",
+                "selector": "#BtnCancelNewAct"
+            },
+            "name": "BtnCancelNewAct",
+            "designerId": "c518ed4e-0e59-4936-88c4-ea376045e453"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#BtnCancelNewAct",
+                "designer|targetType": "Ext.Button",
+                "fn": "onTapBtnCancelNewAct",
+                "implHandler": [
+                    "this.getPopUpNewActivity().hide();",
+                    "this.getPopUpNewActivity().destroy();",
+                    "Ext.getCmp('MainApp').show();"
+                ],
+                "name": "tap"
+            },
+            "name": "onTapBtnCancelNewAct",
+            "designerId": "cb8f551e-047d-4deb-b4cf-d65141a8bee7"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "PopUpNewActivity",
+                "selector": "#PopUpNewActivity"
+            },
+            "name": "PopUpNewActivity",
+            "designerId": "5a34fe90-30ae-4d34-9af7-9e7699819c60"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "BtnSalvaNewAct",
+                "selector": "#BtnSalvaNewAct"
+            },
+            "name": "BtnSalvaNewAct",
+            "designerId": "517d2639-929f-41ca-8b0f-1c765fcf5d7b"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#BtnSalvaNewAct",
+                "designer|targetType": "Ext.Button",
+                "fn": "onTapBtnSalvaNewAct",
+                "implHandler": [
+                    "var me = this;",
+                    "var values = me.getFormNewActivity().getValues();",
+                    "console.log(values);"
+                ],
+                "name": "tap"
+            },
+            "name": "onTapBtnSalvaNewAct",
+            "designerId": "ea1ca6d9-aa49-42c6-905b-27f871f43d1b"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "FormNewActivity",
+                "selector": "#FormNewActivity"
+            },
+            "name": "FormNewActivity",
+            "designerId": "2a5dc2ed-ee4f-4c2f-aeb7-3965c7aae81b"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "ContainerDataOra",
+                "selector": "#ContainerDataOra"
+            },
+            "name": "ContainerDataOra",
+            "designerId": "48aae1d2-6e48-441d-956a-d6a01e00f5e3"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+.container-generali{
+    background-color: #FFFFFF !important;
+    box-shadow: 1px 1px 2px blue !important;
+}
+
+.background-generali{
+    background-color: #000000 !important;
+}
+
+.toolbars-second {
+    background-color: #001E44 !important;
+    border-radius: 0px 0px 5px 5px !important;
+    border: 2px solid #157EFB !important;
+}
